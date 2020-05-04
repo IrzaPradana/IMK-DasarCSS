@@ -1,0 +1,67 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: sans-serif;
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.pembungkus-menu-atas ul {
+    background-color: #6699ff;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.pembungkus-menu-atas ul li {
+    float: left;
+}
+
+.pembungkus-menu-atas ul li a {
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#mengisidata {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=button] {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type=button]:hover {
+    background-color: #36d68b;
+}
